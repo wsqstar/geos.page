@@ -21,7 +21,7 @@
 	],
 	"pluginsConfig": {	
 		"page-footer-ex": {
-            "copyright": "Use[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)",
+            "copyright": "Use [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)",
             "markdown": true,
             "update_label": "<i>updated</i>",
             "update_format": "YYYY-MM-DD HH:mm:ss"
@@ -31,7 +31,7 @@
 			"lang": {"flow": "typescript"}
 		},
 		"statistics":{
-			"google_id":"G-SNCZXB9Y7F"
+			"google_id":"G-7PCEYMNQDL"
 		}
 	},
 	"ignores" : ["_book", "node_modules"]
