@@ -1,0 +1,38 @@
+{
+	"title": "Summary",
+    "links": {
+        "sidebar": {
+            "Home": "https://www.ed.ac.uk/geosciences/"
+        }
+    },
+	"plugins" : [
+		"expandable-chapters",
+		"copy-code-button",
+		"page-footer-ex",
+		"anchor-navigation-ex",
+		"expandable-chapters-small",
+		"prism", 
+		"-highlight",
+		"-lunr", 
+		"-search", 
+		"search-pro",
+		"splitter",
+		"statistics"
+	],
+	"pluginsConfig": {	
+		"page-footer-ex": {
+            "copyright": "Use[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)",
+            "markdown": true,
+            "update_label": "<i>updated</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+		},	
+		"prism": {
+			"css": ["prismjs/themes/prism-solarizedlight.css"],
+			"lang": {"flow": "typescript"}
+		},
+		"statistics":{
+			"google_id":"G-SNCZXB9Y7F"
+		}
+	},
+	"ignores" : ["_book", "node_modules"]
+}
