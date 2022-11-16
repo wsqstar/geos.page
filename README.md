@@ -2,7 +2,8 @@ geos-gitbook for all :)
 ====
 ---
 this is the new start.
-At the very begining: these materials are sorted out by [shiqi](mailto:shiqi@1314.io).
+
+At the very begining: these materials are sorted out by [shiqi](mailto:shiqi@1314.io). 
 
 Since it has not been published yet, the relevant copyright links have not been updated. If you think that any content belongs to you, please contact us for handling.
 ## quick links
