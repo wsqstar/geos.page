@@ -1,13 +1,11 @@
 geos-gitbook for all :)
-
-
 ====
 ---
-this is the new start.
 
 At the very begining: these materials are sorted out by [shiqi](mailto:shiqi@1314.io). 
 
-Since it has not been published yet, the relevant copyright links have not been updated. If you think that any content belongs to you, please contact us for handling.
+Since it has not been announced yet, part of the relevant copyright links have not been updated. If you think that any content belongs to you, please contact us for handling.
+
 ## quick links
 - [SMA](https://www.geos.ed.ac.uk/~gisteac/sma/)
 - TIGIS
@@ -25,3 +23,5 @@ Since it has not been published yet, the relevant copyright links have not been 
 - mailto: shiqi#1314.io (change # to @)(this email is checked weekly), or you can just contact me within the university email system :)
 - [Weekly Event](https://www.ed.ac.uk/geosciences/events/staff-students/edinburgh-earth-observatory-seminars)
 - Join the teams study group!(email my university email for access)
+## Join Editing!!
+- mailto my university email.
