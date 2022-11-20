@@ -8,6 +8,8 @@ Since it has not been announced yet, part of the relevant copyright links have n
 
 ## quick links
 - [SMA](https://www.geos.ed.ac.uk/~gisteac/sma/)
+  - https://www.geos.ed.ac.uk/~bmg/teaching/sma/
+  - 
 - TIGIS
   - [praticals](https://www.geos.ed.ac.uk/~gisteac/tigis/practicals/)
 
