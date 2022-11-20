@@ -10,3 +10,4 @@
 * [RPPP](./rppp/index.md)
 * [PGIS](./PGIS/index.md)
 * [You may like](./5good4u/index.md)
+  * [Python](./5good4u/python.md)
