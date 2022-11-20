@@ -23,4 +23,5 @@ python is quite improtant.
   - process the data
   - append into array or list
 - and we can use number: current_line to record the cuttent processed line to help get better result of line
-  - see [this](./res/photo-1.jpeg)
+  - see [this]
+  ![this](https://raw.githubusercontent.com/wsqstar/geos-img/main/Screen%20Shot%202022-10-15%20at%2012.19.39%20PM.png)
