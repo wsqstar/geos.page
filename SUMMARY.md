@@ -5,6 +5,7 @@
   * [E-R](./sma/E_R.md)
   * [week 2](./sma/week/2.md)
   * [week 3](./sma/week/3.md)
+  * [week 10](./sma/week/10.md)
 * [TIGIS](./tigis/index.md)
 * [ECG](./egc/index.md)
 * [RPPP](./rppp/index.md)
