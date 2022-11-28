@@ -8,7 +8,7 @@
 
 ## Coding Skills
 - [the cs 50](https://www.youtube.com/watch?v=IDDmrzzB14M&ab_channel=CS50)
-
+- [Java and Android](https://developer.android.com/)
 ## Writing Skills
 
 ### How to write a polcy brief?

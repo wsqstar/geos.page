@@ -3,6 +3,8 @@ geos-gitbook for all :)
 ---
 ## Due Day
 
+exam : www.exampapers.ed.ac.uk
+
 At the very begining: these materials are sorted out by [shiqi](mailto:shiqi@1314.io). 
 
 Since it has not been announced yet, part of the relevant copyright links have not been updated. If you think that any content belongs to you, please contact us for handling.
