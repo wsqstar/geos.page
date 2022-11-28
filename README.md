@@ -3,7 +3,7 @@ geos-gitbook for all :)
 ---
 ## Due Day
 
-exam : www.exampapers.ed.ac.uk
+exam : [exampapers.ed.ac.uk](https://exampapers.ed.ac.uk)
 
 At the very begining: these materials are sorted out by [shiqi](mailto:shiqi@1314.io). 
 
