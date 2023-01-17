@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Health-GIS](./gis_health/index.md)
+* [VA](./va/index.md)
 * [SMA](./sma/index.md)
   * [E-R](./sma/E_R.md)
   * [week 2](./sma/week/2.md)
