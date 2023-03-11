@@ -1,6 +1,8 @@
 # Project 2 Note 
 ## 先来一个[文章](https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579)笔记
 
+文章[链接](https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579)：https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579 
+
 本文调查了
 - 英格兰第一波和第二波大流行期间 
   - COVID-19 死亡率的
