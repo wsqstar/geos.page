@@ -1,7 +1,8 @@
 # Project 2 Note 
-## 先来一个[文章](https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579)笔记
+## 文献笔记
+有一个老师写的发表的文章，他的核心参考论文有5篇。
 
-文章[链接](https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579)：https://doi-org.ezproxy.is.ed.ac.uk/10.1016/j.sste.2023.100579 
+文章[链接](https://doi.org/10.1016/j.sste.2023.100579): https://doi.org/10.1016/j.sste.2023.100579
 
 本文调查了
 - 英格兰第一波和第二波大流行期间 
@@ -18,7 +19,7 @@
  - SaTScan 用于
    - 分析 COVID-19 死亡率的
      - 时空模式，
- - 并使用地理加权泊松回归 (GWPR) 调查
+ - 并使用**地理加权泊松回归 (GWPR) **调查
    - 与社会经济和环境因素的关联。
 
 结果表明，
@@ -43,6 +44,7 @@
 
 ## 负二项式模型
 - [一个博客](https://zhangzhenhu.github.io/blog/glm/source/%E8%B4%9F%E4%BA%8C%E9%A1%B9%E6%A8%A1%E5%9E%8B/content.html)
+  
 ```
 参考
 

@@ -28,5 +28,6 @@ Since it has not been announced yet, part of the relevant copyright links have n
 - mailto: shiqi#1314.io (change # to @)(this email is checked weekly), or you can just contact me within the university email system :)
 - [Weekly Event](https://www.ed.ac.uk/geosciences/events/staff-students/edinburgh-earth-observatory-seminars)
 - Join the teams study group!(email my university email for access)
+
 ## Join Editing!!
 - mailto my university email.
