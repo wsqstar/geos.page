@@ -132,8 +132,17 @@
 
 ## 地理加权回归
 - 一个很棒的教程,讲述了相关的原理以及实现,并附有相关实践
+  - GWR就是不同区域都有一个OLS(可以这么理解),
+    - 因为OLS是全局回归,肯定会有不好拟合的
+      - 可以想象成椭球体,就几个参数
+    - ,而GWR是由地理属性的,每一个地方的变量的回归系数都不一样,
+      - 可以想象成重力模型,每个地方的都不一样
 ```
 https://blogs.ubc.ca/cpotiergeob479/labs/lab-3-introduction-to-geographically-weighted-regression/ 
 ```
+- Arcgis 的原理说明
 
+```
+https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-geographicallyweightedregression-works.htm
+```
 
