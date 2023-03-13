@@ -67,6 +67,7 @@
     - 并使用地理加权泊松回归来
       - 检查影响空间格局的因素，
       - 同时考虑到空间异质性。
+
 ### 数据
 ```
 首先介绍数据源,然后介绍对于各种数据源的指标的处理,然后介绍环境变量以及部分数据的赋值(插值)
@@ -115,7 +116,9 @@
   - 核外的数据点的权重为零，因此被排除在回归方程中。
 
 ### 结果
+
 ### 讨论
+
 ### 结论
 
 
@@ -126,10 +129,11 @@
 
 ## 负二项式模型
 - [一个博客](https://zhangzhenhu.github.io/blog/glm/source/%E8%B4%9F%E4%BA%8C%E9%A1%B9%E6%A8%A1%E5%9E%8B/content.html)
-  
-```
-参考
 
-
+## 地理加权回归
+- 一个很棒的教程,讲述了相关的原理以及实现,并附有相关实践
 ```
+https://blogs.ubc.ca/cpotiergeob479/labs/lab-3-introduction-to-geographically-weighted-regression/ 
+```
+
 
