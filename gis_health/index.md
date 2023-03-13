@@ -140,15 +140,25 @@
 ```
 https://blogs.ubc.ca/cpotiergeob479/labs/lab-3-introduction-to-geographically-weighted-regression/ 
 ```
-- Arcgis 的原理说明
+- Arcgis 的原理说明(包括参数选择)
 
 ```
 https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-geographicallyweightedregression-works.htm
+```
+中文版的
+```
+https://pro.arcgis.com/zh-cn/pro-app/latest/tool-reference/spatial-statistics/how-geographicallyweightedregression-works.htm
 ```
 - 布里斯托的教程
   - OLS的一个假设就是每个地方的自变量和因变量之间的关系是相同的
   - 如果经过残差校验,发现残差有空间分布模式,那么就证明OLS的前提假设就不成立,意味着需要使用更加精确的算法.比如GWR.
   - GWR 背后的基本思想是探索因变量 (Y) 与一个或多个自变量 (X) 之间的关系如何在地理上发生变化。它不是假设单个模型可以适用于整个研究区域(比如OLS就这样)，而是寻找地理差异。
+  - GWR,对于N个数据点的数据,会分析其中N个点,对于每一个点,会有一个搜索范围当搜索窗口位于样本点上时，它周围和搜索窗口内的所有其他点都会被识别。然后将回归模型拟合到该数据子集，为最接近中心点的点赋予最大权重.
+    - 这里的搜索范围有两种定义
+      - 实际地理距离
+      - 邻居(比较常用,也被称之为**自适应窗口**)
+  - 还需要看关系的聚类是否是偶然的
+    - 如果是
 
 ```
 https://www.bristol.ac.uk/media-library/sites/cmpo/migrated/documents/gwr.pdf 
