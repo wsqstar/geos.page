@@ -1,5 +1,6 @@
 # Project 2 Note 
-## 文献笔记
+
+## 文献笔记(比较特殊的一篇)
 有一个老师写的发表的文章，他的核心参考论文有5篇。
 
 文章[链接](https://doi.org/10.1016/j.sste.2023.100579): https://doi.org/10.1016/j.sste.2023.100579
@@ -128,7 +129,13 @@
 ## age-standardised mortality rate 年龄标准化死亡率
 
 ## 负二项式模型
+
 - [一个博客](https://zhangzhenhu.github.io/blog/glm/source/%E8%B4%9F%E4%BA%8C%E9%A1%B9%E6%A8%A1%E5%9E%8B/content.html)
+
+## Geographically Weighted Panel Regression GWPR 地理加权面板回归
+```
+https://cran.r-project.org/web/packages/GWPR.light/vignettes/introduction_of_GWPR.html
+```
 
 ## 地理加权回归
 - 一个很棒的教程,讲述了相关的原理以及实现,并附有相关实践
@@ -140,6 +147,7 @@
 ```
 https://blogs.ubc.ca/cpotiergeob479/labs/lab-3-introduction-to-geographically-weighted-regression/ 
 ```
+
 - Arcgis 的原理说明(包括参数选择)
 
 ```
