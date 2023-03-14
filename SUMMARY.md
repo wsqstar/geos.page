@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Health-GIS](./gis_health/index.md)
+  * [Project 2](./gis_health/project2.md)
 * [VA](./va/index.md)
 * [SMA](./sma/index.md)
   * [E-R](./sma/E_R.md)
