@@ -161,6 +161,11 @@ TODO 这里的标准化需要计算
 ```
 https://cran.r-project.org/web/packages/GWPR.light/vignettes/introduction_of_GWPR.html
 ```
+## Possion Distribution 泊松分布
+这个教程很棒：  
+```
+https://www.ruanyifeng.com/blog/2015/06/poisson-distribution.html 
+```
 
 ## 地理加权回归
 - 一个很棒的教程,讲述了相关的原理以及实现,并附有相关实践
