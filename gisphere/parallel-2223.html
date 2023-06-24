@@ -1,0 +1,503 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=parallel-aqi&theme=dark&code=PTAEGUGMAsFMFsCGAuAUCUATRAXWAaAQQEUBJASwDtNYAPfABQFkAmAOgFZGmBGABnwBhAPL4AcsJb5wk1JAD2lAM44suRCz4sAzKAC8oANqpDAckA05oEXPU_lCmA0uBt3ADaaACpUCG6s9OArwMCcsaYAuvgmFta2pgCi9t6Aj0GAv2re_kEhZlbejt6Acf6JEcnBoYCqHoDXGhnZuXaAFoqAapopoekRkU4ROUkBBWYlZS0VpjV1naWNmT3e_R1hGc12CW0DkxHTpq0RgLBygJ2mgP3ygPAJgEzp812L3oBU5oBZ2mO1E4d2MaMR46kLdtFLZ3MTDTdxvfmPn6ZiE7nPLtP7hZ4jOwrOy_IpDOyAu5VS5g7yRb7vR7XKJLQDk1oAmW0A5JqAMTTMfVwTjymTBmi8UTSSD5v9HMJvIBMzMA9HbUp4AqmMj4UyGmdxefmoo4RAkk7n_RFQ3oPclooHeDY7fZXeEObxShl2QAisYBKpQOWpeKoigCllFFKiK3eUyilmiKzMVw5XOn6gm0QpbQ3xetIUpach209lc12B7y-z0m7wAdW8gGg5QAAcoAXPQucdtOvpmYFU28Iu52LlywV1ppjT5yKzCPNNc13lLfrVe1rplewJhAZ5zdj-dtMbz4q-SL6Fd79f9TIpfeLWs7qq2bYHo7sb0jk7HsMra9MG4bI6i4dDw2rpit7ei3kAl-nlmdNqc7rfrrvTiaALWVTVOje255vZSfHtAA2swBaOUfCID1MVsNSPUsoOfQDILfS9GwieC30VXdeWQ4dvRw18l3VB8q1wy0JxLKcsJ5J0Zn7I8hT9RDBSoickPtciSIhDE1mXWC3VIuxdTwqN0O8QBm-3xecwzIw98Iw087CHTdKNk8cuII_c32Y7oOLsGCNP_bt2ztMsRJ5AAVbw3EAf6NCW8VCGPPAy0JuJZbPs-42KDKdHPw9y7IcijvzHaj2K0oKTNZbce2xdEIg8yLVwcRcvMM88_NEvcENikLCLS5LS0SgCfIiSTFOPNTn2xVK5Owoz1NcqJTOEiJf2S-L8uMpqGrCljQu8907BDEqhtMVruqPTrTBGyb8KaHNpQKqbTKLTcvwgrrTHalalhdOassqvSL2CsaoMynlTLvCqFNGsSqp7f5apOjTnoup7Fr1d8sQXc8-ujP7Bvu46dIlLbQaUoCNNo8bczuvc_Qu7FTL9f7gbM-HNPKzGUfvZLcaSqaJKknGocK88IY7QGNKsmK_2p_HfKBn0pxcuCyZ-zaIuW-blIO0waoZo8-e-_ChXO5mqbUtG6zUtmBNlraZe1B7Xo5hXNKg5XnspnXHtKrb3sddX6tYkyzfJtSka1XrTvRrXJevVXkpFynpod6GKdysbirql9uf5_53e0_WAed9mIlm0XsMYvGptd0PhjpJbA9nE8VK1cXMLtuxouO6i4tM-JAFDFbwdo10t9saznBJmiM_eZHj-cL575ZjoX_PT1Ow6Vx2O8OkXlYat2TZ5BPPfD-aMsdoUJujmis4q8emoJnnDsXzHptRx29Y00yq8p1eG7Tgb0rp_GRaNnuA-gvi1YSwK155RNJ5jgLPOP6-mO92vEZzo6MZ-0FlbSWR9q74TzjfK-v845izepLPa9ENamQ9ivQektbr6Tvh1L2NNrKPzsNA54y9UCBAANyoAAG6IAAE5qBwBoLQLB9BGHmqZKObswFDybvPIOYDD7oLPnRQmvMeHVVNLHcyH0PTSRgVIx0iDZE3EgaglauDGaSjht3Ro4BVqeAqtNOeusWpaN4UGUyvsXouzAUQzSRif5KS4Qg5M6YDFiMTs8LuZixoHw8QAv-r195IIHu4iewjN74I_t42uviwmmFiSvfuNFIlKOakkoOXiR6v2SRENa2iWYyN4sRHBhT8lpNKdEzxmiU6VJSqEy24SynBnrrUyuwSx71JrgUuwli3aKJxs0-RZ0Q7QyCW4iIgB3YMAA6KS9vCAHhDQkgBKJQMUKKutiFogOhv0spMMcpXk-mXY0HVJFP2kY02pSw8m1KdiDBxdSKlZNcPogZhZnlNNHkHXeLsPnG2yeFCW9NT4X3SY6VZ7T_nZ3vuc3WmS_FtPGU80UOzOlT1yW865QpUwZgiRU62BYgXC0gXPbh58I75x3iiw6GzwZwspZdEFY17FbNeUi-ecVtm32KV0uxpjy7r28IAdv1YFUrGZvS-GC6VxSZnvBltpIGWILpnd-hyrwoLfHynJPSCEXNhSZQRGihKmMeTfNu9KCWiIeX4k57zqlfQ1Rkh-UTOHExEYdeFmMGqms-T8tE9haaGpqYfA5mNW7YKco6oZOjdXHI5eI314q4kcPaKgFN5CU3ULoQAGyoLAcAOAACembYAsIAN6oFAKAAA7uQTAOBoDIFADwEIFb5AAAdECQHIAWhtfBOCoAAL4ULbTgcgihS3ltAAAIw7QAawAOY0PkAAV2oIIeQmb5A0IbaYAAxDwfdNgJ1FrnbAagDay0VorZO-QOAcDyHgA27QAgJ0VuwAwhtZhNA6G8F-lgP6tA8DqJe0AXaEAAHFECtobZoZtl68C0BwHmwtsBz0vsvQoDdW67A7oAGZ4cPcBitOHFCIfIAALxQ42gALGh_tE7-2wbveukdUHQAXsve2zAmAqBzobfwWDV7Z0LuXau9dm7t07pYFJgjl7r00JoDQtdmGJMAHY1MyavZuhT8Ya11r4_R2D7aaGIEzUWzNhBaDkCUB-tDJbQBodfeQB9oABD2cI6ASgiB4CUdMIAZX1ACySoAM21ABhyhpuD-bW0-cgLgWAc7N35rC6-9QyBRICyGKYDa-BTBgSCG5wjtGBNsawE5vjthPPee3YAPO1AAGcpEQAgPKACw5ewgA_6MABkZgARv3AIFwAhBbCEAG6KgA1uQsoATVNAvxkAHOJgA0TTEIAQptACQ5ol0ABbIvbui3gOLNCEu2EvW-lAZh4rlOarTSkWWnQqwcNFe5KVLuXeaKYY7L9eSBFAAx2zxXnNSA815nzgBu5UAIgqNhltRZixtrbu2UumCxTYUwxVTAl2h2tbmsMlqmGxhjeJuRTDXSyyGZ7r3gPseA9x5z2hCsVvKz56ogXACLiYtoHq2QfxcW-Dow6lOKMjasaLLLlaMToKBWjAlCrNLpM0wSDqGBdgArUoaA8hK0NpwDQpdBAJ0YArfAKgPbYNq9AEgWgfGODPslztpzp6lCjsoNB7XUuQOUAAEqIEoCeiXoAdcVow-J1nO7MAAE4qOwA4JgbwO7YAdpU9oAAbMHw3iBtDTqCGwGhsBKGwBoUoWAAAKAAlKrm3xuPc0MIJm1t0AUBGFczwQIufL10eN_j0ARmTNmZdxWotOGcDbo4AAUjCzQ8gc7oAd7sDwAAHD3wr17b33r43wI3HHaFN9gOZyzSgAAisAcOICXZmofhPwsrbsGt2LTOydfYq3YALIXFsU4ADLyDWxb7dp6g-n4pxB1jMGHNn9gBZOgiGC1Fot6EYF4SZ4Y4aLZEYkbgDkaUY8AsBf717AaIAr4345pAHAbZqUC5oAGUZ77uYgHYaIBEGmBf4Vq16EaIGXrIFWYWTkCQAzroGXqYHYHIaMHAYEG7qQBcEkHuZkEIGn5KCtrZo4CoFYFsGgAy5y4Nqb6Zrp78Ff7UFKA36ICTpL7iEcG4b4YIG85kGwbp596wDWasIE5f4U7bpfraB04RY-aN6mZL6LbMFIaAGgCOE4Gn4s67YWEFa2amHfbmFMJWEH6mC2FmYOE5pOGUauHIbuHJb0KMJSY6GgBV6DpAA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    // Schema:
+// date,AQIindex,PM2.5,PM10,CO,NO2,SO2
+const data2023 = [
+['本科', 'KS', '新加坡', '自费'],
+['本科', 'EK', '英国', '自费'],
+['本科', 'KS', '美国', '自费'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'ES', '美国', '自费'],
+['硕士', 'K', '美国', '全奖'],
+['硕士', 'EKS', '美国', '全奖'],
+['本科', 'KS', '英国', '自费'],
+['本科', 'S', '美国', '不方便透露'],
+['硕士', 'S', '未定', '全奖'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'EKS', '未定', '自费'],
+['本科', 'K', '英国', '自费'],
+['本科', 'N', '未定', '自费'],
+['本科', 'EKS', '美国', '自费'],
+['硕士', 'N', '美国', '全奖'],
+['本科', 'E', '英国', '自费'],
+['硕士', 'ES', '欧洲大陆', '自费'],
+['本科', 'ES', '美国', '自费'],
+['硕士', 'ES', '欧洲大陆', '自费'],
+['本科', 'KSO', '香港', '自费'],
+['本科', 'N', '美国', '自费'],
+['本科', 'KS', '新加坡', '自费'],
+['本科', 'S', '欧洲大陆', '自费'],
+['本科', 'N', '美国', '全奖'],
+['本科', 'E', '未定', '不方便透露'],
+['硕士', 'K', '欧洲大陆', '资助'],
+['硕士', 'EKS', '未定', '半奖'],
+['本科', 'K', '美国', '自费'],
+['本科', 'EKS', '英国', '自费'],
+['硕士', 'E', '英国', '自费'],
+['本科', 'EKS', '美国', '自费'],
+['本科', 'S', '香港', '自费'],
+['本科', 'ES', '香港', '自费'],
+['本科', 'S', '美国', '自费'],
+['硕士', 'W', '下一年', '全奖'],
+['硕士', 'K', '欧洲大陆', '全奖'],
+['本科', 'KS', '新加坡', '自费'],
+['硕士', 'N', '美国', '全奖'],
+['硕士', 'E', '美国', '全奖'],
+['硕士', 'N', '未定', '全奖'],
+['硕士', 'N', '美国', '不方便透露'],
+['硕士', 'S', '未定', '自费'],
+['本科', 'N', '美国', '自费'],
+['本科', 'KS', '美国', '全奖'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'N', '未定', '自费'],
+['本科', 'N', '美国', '自费'],
+['硕士', 'S', '未定', '不方便透露'],
+['本科', 'K', '未定', '自费'],
+['本科', 'N', '美国', '自费'],
+['硕士', 'K', '未定', '全奖'],
+['本科', 'E', '香港', '自费'],
+['本科', 'EK', '美国', '半奖'],
+['硕士', 'EK', '韩国', '全奖'],
+['本科', 'N', '未定', '自费'],
+['本科', 'N', '未定', '自费'],
+['博士', 'E', '未定', '资助'],
+['硕士', 'N', '美国', '自费'],
+['本科', 'N', '未定', '自费'],
+['高中', 'N', '未定', '不方便透露'],
+['本科', 'N', '未定', '自费'],
+['本科', 'N', '未定', '半奖'],
+['硕士', 'N', '未定', '全奖'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'N', '未定', '不方便透露'],
+['本科', 'E', '未定', '半奖'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'EKS', '英国', '自费'],
+['本科', 'KS', '美国', '自费'],
+['本科', 'K', '未定', '全奖'],
+['本科', 'N', '美国', '半奖'],
+['本科', 'EK', '英国', '不方便透露'],
+['硕士', 'E', '欧洲大陆', '全奖'],
+['本科', 'N', '澳洲', '自费'],
+['硕士', 'ES', '未定', '全奖'],
+['本科', 'N', '未定', '自费'],
+['本科', 'S', '美国', '自费'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'N', '未定', '自费'],
+['本科', 'K', '美国', '不方便透露'],
+['本科', 'N', '美国', '自费'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'T', '加拿大', '半奖'],
+['本科', 'K', '美国', '不方便透露'],
+['硕士', 'KS', '加拿大', '全奖'],
+['本科', 'S', '未定', '半奖'],
+['本科', 'S', '加拿大', '半奖'],
+['硕士', 'E', '美国', '全奖'],
+['本科', 'N', '未定', '半奖'],
+['硕士', 'KO', '美国', '自费'],
+['硕士', 'E', '加拿大', '半奖'],
+['本科', 'KS', '未定', '全奖'],
+['本科', 'N', '美国', '半奖'],
+['本科', 'K', '未定', '自费'],
+['硕士', 'E', '未定', '全奖'],
+['本科', 'N', '加拿大', '自费'],
+['本科', 'S', '澳洲', '自费'],
+['本科', 'E', '未定', '自费'],
+['硕士', 'S', '未定', '全奖'],
+['硕士', 'N', '美国', '全奖'],
+['硕士', 'EK', '欧洲大陆', '资助'],
+['本科', 'E', '未定', '自费'],
+['硕士', 'N', '美国', '全奖'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'E', '香港', '自费'],
+['本科', 'E', '欧洲大陆', '自费'],
+['本科', 'E', '香港', '自费'],
+['本科', 'ES', '欧洲大陆', '全奖'],
+['本科', 'EK', '新加坡', '自费'],
+['博士', 'N', '未定', '资助'],
+['本科', 'EKS', '英国', '自费'],
+['本科', 'E', '美国', '半奖'],
+['硕士', 'E', '未定', '半奖'],
+['本科', 'K', '韩国', '自费'],
+['本科', 'N', '未定', '自费'],
+['本科', 'N', '未定', '自费'],
+['本科', 'S', '未定', '半奖'],
+['本科', 'S', '未定', '半奖'],
+['本科', 'S', '欧洲大陆', '自费'],
+['硕士', 'S', '美国', '全奖'],
+['本科', 'S', '美国', '全奖'],
+['本科', 'N', '美国', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'EKS', '欧洲大陆', '自费'],
+['本科', 'K', '美国', '半奖'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'N', '美国', '自费'],
+['本科', 'N', '澳洲', '自费'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'K', '美国', '半奖'],
+['本科', 'E', '澳洲', '自费'],
+['本科', 'K', '未定', '自费'],
+['本科', 'N', '美国', '自费'],
+['本科', 'S', '美国', '全奖'],
+['本科', 'T', '美国', '自费'],
+['硕士', 'N', '美国', '全奖'],
+['本科', 'K', '未定', '半奖'],
+['本科', 'EKS', '未定', '不方便透露'],
+['本科', 'N', '未定', '自费'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'ES', '美国', '自费'],
+['硕士', 'S', '美国', '全奖'],
+['本科', 'S', '美国', '自费'],
+['本科', 'KS', '未定', '半奖'],
+['本科', 'S', '未定', '全奖'],
+['本科', 'N', '未定', '不方便透露'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'K', '未定', '自费'],
+['本科', 'S', '未定', '自费'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'S', '未定', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'S', '未定', '半奖'],
+['本科', 'E', '未定', '自费'],
+['硕士', 'N', '未定', '全奖'],
+['硕士', 'K', '未定', '全奖'],
+['本科', 'N', '未定', '半奖'],
+['硕士', 'N', '美国', '全奖'],
+['硕士', 'N', '未定', '全奖'],
+['本科', 'EK', '未定', '自费'],
+['本科', 'S', '美国', '自费'],
+['本科', 'E', '未定', '全奖'],
+['本科', 'E', '美国', '自费'],
+['硕士', 'E', '加拿大', '全奖'],
+['本科', 'N', '未定', '自费'],
+['本科', 'E', '未定', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'N', '香港', '自费'],
+['硕士', 'KS', '美国', '全奖'],
+['本科', 'ES', '美国', '自费'],
+['本科', 'EKS', '欧洲大陆', '自费'],
+['本科', 'N', '香港', '自费'],
+['硕士', 'KS', '未定', '全奖'],
+['硕士', 'O', '美国', '全奖'],
+['硕士', 'EK', '国内', '资助'],
+['硕士', 'N', '英国', '全奖'],
+['硕士', 'E', '香港', '全奖'],
+['本科', 'K', '英国', '自费'],
+['硕士', 'EKS', '未定', '不方便透露'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'S', '香港', '自费'],
+['本科', 'S', '未定', '全奖'],
+['本科', 'E', '美国', '全奖'],
+['本科', 'S', '美国', '全奖'],
+['本科', 'N', '美国', '自费'],
+['本科', 'E', '未定', '自费'],
+['本科', 'S', '美国', '自费'],
+['本科', 'E', '未定', '自费'],
+['本科', 'E', '美国', '半奖'],
+['本科', 'EKS', '欧洲大陆', '自费'],
+['本科', 'EKS', '未定', '自费'],
+['本科', 'S', '美国', '自费'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'KS', '未定', '自费'],
+['本科', 'E', '美国', '全奖'],
+['本科', 'ES', '未定', '自费'],
+['本科', 'K', '英国', '自费'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'N', '美国', '全奖'],
+['本科', 'N', '美国', '自费'],
+['本科', 'KS', '美国', '半奖'],
+['本科', 'S', '未定', '不方便透露'],
+['本科', 'S', '加拿大', '全奖'],
+['本科', 'W', '未定', '自费'],
+['硕士', 'KS', '加拿大', '全奖'],
+['本科', 'S', '美国', '自费'],
+['硕士', 'E', '美国', '半奖'],
+['硕士', 'E', '美国', '全奖'],
+['硕士', 'S', '未定', '半奖'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'O', '未定', '半奖'],
+['本科', 'E', '美国', '全奖'],
+['本科', 'KS', '未定', '半奖'],
+['本科', 'S', '英国', '自费'],
+['硕士', 'K', '未定', '全奖'],
+['硕士', 'KS', '美国', '全奖'],
+['本科', 'N', '未定', '不方便透露'],
+['本科', 'E', '美国', '自费'],
+['本科', 'T', '加拿大', '半奖'],
+['本科', 'ES', '美国', '自费']
+];
+var data2022 = [
+['本科', 'EK', '香港', '自费'],
+['本科', 'EK', '美国', '全奖'],
+['本科', 'N', '英国', '自费'],
+['本科', 'EK', '美国', '自费'],
+['本科', 'KS', '美国', '全奖'],
+['本科', 'N', '英国', '半奖'],
+['本科', 'ES', '英国', '自费'],
+['硕士', 'EKS', '美国', '全奖'],
+['本科', 'S', '英国', '自费'],
+['硕士', 'E', '美国', '全奖'],
+['本科', 'ES', '英国', '自费'],
+['硕士', 'KO', '未定', '全奖'],
+['本科', 'EK', '美国', '自费'],
+['本科', 'K', '欧洲大陆', '自费'],
+['本科', 'ESK', '新加坡', '自费'],
+['本科', 'E', '欧洲大陆', '自费'],
+['本科', 'SK', '欧洲大陆', '自费'],
+['本科', 'SK', '加拿大', '半奖'],
+['本科', 'SK', '美国', '半奖'],
+['本科', 'N', '欧洲大陆', '自费'],
+['硕士', 'SK', '美国', '全奖'],
+['本科', 'S', '下一年', '自费'],
+['本科', 'E', '英国', '自费'],
+['本科', 'E', '香港', '自费'],
+['本科', 'E', '英国', '自费'],
+['本科', 'E', '美国', '半奖'],
+['本科', 'SK', '英国', '自费'],
+['本科', 'S', '英国', '自费'],
+['本科', 'E', '英国', '自费'],
+['本科', 'E', '加拿大', '自费'],
+['本科', 'E', '英国', '自费'],
+['本科', 'E', '英国', '自费'],
+['硕士', 'K', '美国', '全奖'],
+['本科', 'E', '加拿大', '自费'],
+['硕士', 'EK', '美国', '全奖'],
+['本科', 'E', '香港', '自费'],
+['本科', 'E', '未定', '自费'],
+['本科', 'E', '新加坡', '自费'],
+['本科', 'EKS', '英国', '不方便透露'],
+['本科', 'E', '英国', '自费'],
+['本科', 'EK', '英国', '自费'],
+['本科', 'E', '欧洲大陆', '自费'],
+['本科', 'KS', '英国', '自费'],
+['本科', 'N', '英国', '自费'],
+['本科', 'S', '香港', '自费'],
+['本科', 'N', '英国', '自费'],
+['本科', 'S', '英国', '自费'],
+['硕士', 'EKS', '加拿大', '自费'],
+['本科', 'ES', '英国', '自费'],
+['本科', 'KS', '香港', '全奖'],
+['本科', 'E', '未定', '自费'],
+['本科', 'EK', '英国', '自费'],
+['本科', 'E', '荷兰', '自费'],
+['本科', 'S', '意大利', '自费'],
+['本科', 'EKS', '英国', '半奖'],
+['本科', 'ES', '未定', '半奖'],
+['本科', 'ES', '英国', '自费'],
+['本科', 'EKS', '未定', '自费'],
+['硕士', 'E', '欧洲大陆', '资助'],
+['本科', 'EKS', '美国', '全奖'],
+['本科', 'S', '英国', '自费'],
+['本科', 'S', '新加坡', '自费'],
+['本科', 'EK', '美国', '自费'],
+['硕士', 'KS', '英国', '自费'],
+['本科', 'E', '新加坡', '自费'],
+['本科', 'KS', '新加坡', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'ES', '未定', '自费'],
+['本科', 'S', '未定', '自费'],
+['本科', 'E', '未定', '自费'],
+['本科', 'N', '未定', '半奖'],
+['硕士', 'N', '美国', '全奖'],
+['本科', 'KS', '美国', '全奖'],
+['本科', 'EKS', '英国', '自费'],
+['本科', 'N', '未定', '全奖'],
+['本科', 'S', '英国', '自费'],
+['本科', 'S', '香港', '自费'],
+['本科', 'N', '英国', '自费'],
+['本科', 'E', '新加坡', '自费'],
+['本科', 'E', '英国', '自费'],
+['本科', 'E', '新加坡', '自费'],
+['本科', 'EKS', '下一年', '自费'],
+['本科', 'E', '英国', '半奖'],
+['硕士', 'KS', '美国', '全奖'],
+['本科', 'SO', '欧洲大陆', '全奖'],
+['本科', 'N', '美国', '自费'],
+['本科', 'N', '美国', '全奖'],
+['本科', 'ES', '英国', '自费'],
+['本科', 'ES', '未定', '自费'],
+['本科', 'N', '英国', '自费'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'E', '欧洲大陆', '自费'],
+['本科', 'ES', '新加坡', '自费'],
+['硕士', 'ES', '英国', '不方便透露'],
+['硕士', 'N', '欧洲大陆', '资助'],
+['本科', 'K', '德国', '全奖'],
+['本科', 'EK', '英国', '自费'],
+['本科', 'ES', '美国', '半奖'],
+['本科', 'N', '英国', '自费'],
+['硕士', 'E', '未定', '半奖'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'KO', '加拿大', '全奖'],
+['硕士', 'KS', '加拿大', '资助'],
+['硕士', 'EK', '未定', '资助'],
+['本科', 'E', '加拿大', '自费'],
+['本科', 'S', '香港', '自费'],
+['硕士', 'KS', '美国', '全奖'],
+['本科', 'K', '欧洲大陆', '自费'],
+['本科', 'E', '未定', '不方便透露'],
+['本科', 'K', '美国', '全奖'],
+['本科', 'ES', '英国', '自费'],
+['本科', 'KS', '美国', '自费'],
+['本科', 'S', '欧洲大陆', '资助'],
+['本科', 'E', '加拿大', '自费'],
+['本科', 'EK', '澳洲', '半奖'],
+['本科', 'N', '英国', '自费'],
+['本科', 'N', '美国', '不方便透露'],
+['本科', 'ES', '未定', '自费'],
+['本科', 'EKT', '欧洲大陆', '自费'],
+['本科', 'K', '欧洲大陆', '自费'],
+['本科', 'S', '未定', '不方便透露'],
+['本科', 'K', '加拿大', '全奖'],
+['本科', 'ES', '香港', '自费'],
+['本科', 'EKS', '英国', '自费'],
+['硕士', 'EKS', '美国', '半奖'],
+['本科', 'E', '香港', '自费']
+
+
+];
+
+var lineStyle = {
+  width: 1,
+  opacity: 0.5
+};
+option = {
+  backgroundColor: '#111',
+  legend: {
+    bottom: 30,
+    data: ['2023', '2022', '2021'],
+    itemGap: 20,
+    textStyle: {
+      color: '#fff',
+      fontSize: 14
+    }
+  },
+  tooltip: {
+    padding: 10,
+    backgroundColor: '#222',
+    borderColor: '#777',
+    borderWidth: 1
+  },
+  parallelAxis: [
+    { 
+      dim: 0, 
+      name: '当前学历',
+      type: 'category',
+      data:['本科','硕士','博士','高中'] 
+      
+    },
+    { dim: 1, name: '实习E企业K课题组S学校O其他T教学W野外N没有',
+      type: 'category',    data:['E','EK','EKT','ES','EKS','K','KO','KS','KSO','O','S','T','W','N'] },
+    { dim: 2, name: '去向',type: 'category',data:['下一年','加拿大','国内','新加坡','未定','欧洲大陆','澳洲','美国','英国','韩国','香港'] },
+    {
+      dim: 3,
+      name: '奖学金',
+      type: 'category',
+      data: ['全奖', '半奖', '自费', '资助','不方便透露']
+    }
+  ],
+  // visualMap: {
+  //   show: true,
+  //   min: 0,
+  //   max: 150,
+  //   dimension: 2,
+  //   inRange: {
+  //     color: ['#d94e5d', '#eac736', '#50a3ba'].reverse()
+  //     // colorAlpha: [0, 1]
+  //   }
+  // },
+  parallel: {
+    left: '5%',
+    right: '18%',
+    bottom: 100,
+    parallelAxisDefault: {
+      type: 'category',
+      name: '当前学历',
+      nameLocation: 'end',
+      nameGap: 20,
+      nameTextStyle: {
+        color: '#fff',
+        fontSize: 12
+      },
+      axisLine: {
+        lineStyle: {
+          color: '#aaa'
+        }
+      },
+      axisTick: {
+        lineStyle: {
+          color: '#ccc'
+        }
+      },
+      splitLine: {
+        show: false
+      },
+      axisLabel: {
+        color: '#fff'
+      }
+    }
+  },
+  series: [
+    {
+      name: '2023',
+      type: 'parallel',
+      lineStyle: lineStyle,
+      data: data2023
+    },
+    {
+      name: '2022',
+      type: 'parallel',
+      lineStyle: lineStyle,
+      data: data2022
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
